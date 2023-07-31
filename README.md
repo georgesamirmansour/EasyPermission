@@ -1,6 +1,3 @@
-Sure! Below is the full README.md file for the `EasyPermission` plugin version 1.0.0:
-
-```
 # EasyPermission Plugin v1.0.0
 
 EasyPermission is a Flutter plugin that simplifies permission requests and checks with additional features, making it easier to handle permissions in your Flutter app.
