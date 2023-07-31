@@ -21,7 +21,7 @@ dependencies:
 
 ## Usage
 
-1. Import the `easy_permission` package in your Dart file:
+1. Import the `easy_permissions_handler` package in your Dart file:
 
 ```dart
 import 'package:easy_permission/easy_permissions_handler.dart';
