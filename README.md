@@ -16,7 +16,7 @@ To use EasyPermissionHandler in your Flutter project, add the following to your 
 
 ```yaml
 dependencies:
-  easy_permission: ^1.0.0
+  easy_permissions_handler: ^1.0.0
 ```
 
 ## Usage
