@@ -1,4 +1,4 @@
-import 'package:easy_permission/easy_permission.dart';
+import 'package:easy_permissions_handler/easy_permissions_handler.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
   }
 
   Future<void> _requestCameraPermission(BuildContext context) async {
-    EasyPermission permissionModule = EasyPermission(
+    EasyPermissionHandler permissionModule = EasyPermissionHandler(
       permission: Permission.camera,
       isRequired: true,
       onResumed: () {

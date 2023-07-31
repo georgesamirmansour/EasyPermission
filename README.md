@@ -1,6 +1,6 @@
-# EasyPermission Plugin v1.0.0
+# EasyPermissionHandler Plugin v1.0.0
 
-EasyPermission is a Flutter plugin that simplifies permission requests and checks with additional features, making it easier to handle permissions in your Flutter app.
+EasyPermissionHandler is a Flutter plugin that simplifies permission requests and checks with additional features, making it easier to handle permissions in your Flutter app.
 
 ## Features
 
@@ -12,7 +12,7 @@ EasyPermission is a Flutter plugin that simplifies permission requests and check
 
 ## Installation
 
-To use EasyPermission in your Flutter project, add the following to your `pubspec.yaml` file:
+To use EasyPermissionHandler in your Flutter project, add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
@@ -24,14 +24,14 @@ dependencies:
 1. Import the `easy_permission` package in your Dart file:
 
 ```dart
-import 'package:easy_permission/easy_permission.dart';
+import 'package:easy_permission/easy_permissions_handler.dart';
 ```
 
-2. Create an instance of `EasyPermission` with required parameters:
+2. Create an instance of `EasyPermissionHandler` with required parameters:
 
 ```dart
 Future<bool> isGranted() async{
-  EasyPermission(
+  EasyPermissionHandler(
     permission: Permission.camera,
     isRequired: true,
     onResumed: () {
@@ -75,7 +75,7 @@ For more information, refer to the [permission_handler](https://pub.dev/packages
 
 ## Contributions
 
-Contributions are welcome! If you find any issues or want to enhance the functionality of the EasyPermission plugin, feel free to create a pull request.
+Contributions are welcome! If you find any issues or want to enhance the functionality of the EasyPermissionHandler plugin, feel free to create a pull request.
 
 ## License
 

@@ -4,21 +4,21 @@ import 'package:permission_handler/permission_handler.dart';
 export 'package:permission_handler/permission_handler.dart';
 
 /// A class to simplify permission requests and checks with additional features.
-class EasyPermission {
+class EasyPermissionHandler {
   final Permission permission;
   final bool isRequired;
   final Future<bool>? onDeniedForeverFeature;
   final Future<bool>? customDescriptionFuture;
   final VoidCallback onResumed;
 
-  /// Creates an instance of `EasyPermission`.
+  /// Creates an instance of `EasyPermissionHandler`.
   ///
   /// The `permission` parameter is the permission to handle.
   /// The `isRequired` parameter determines if the permission is mandatory or optional.
   /// The `onResumed` parameter is a callback that is called when the app resumes after the permission dialog is shown.
   /// The `customDescriptionFuture` parameter is an optional future to show a custom dialog with permission description.
   /// The `onDeniedForeverFeature` parameter is an optional future to handle permanently denied permissions.
-  EasyPermission({
+  EasyPermissionHandler({
     required this.permission,
     required this.isRequired,
     required this.onResumed,

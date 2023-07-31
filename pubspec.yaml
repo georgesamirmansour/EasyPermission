@@ -1,4 +1,4 @@
-name: easy_permission
+name: easy_permissions_handler
 description: Simplify permission requests and checks. Handle mandatory/optional permissions with custom dialogs if needed.
 version: 1.0.0
 homepage: https://github.com/georgesamirmansour/EasyPermission
